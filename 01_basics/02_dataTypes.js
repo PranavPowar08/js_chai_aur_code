@@ -8,7 +8,7 @@ console.log(3
 
 console.log("Pranav")
 
-let name = "Pranav"
+let name = "pranav"
 let age = 18
 let isLoggedIn = false
 let state;
