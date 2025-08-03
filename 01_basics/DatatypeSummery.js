@@ -36,3 +36,32 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive Data Type)  Heap (Non Primitive )
+//  Stack give copy of element 
+// heap give reference to the object value
+
+let name = "Pranav"
+
+let name2 = name
+
+name2 = "Hero"
+
+console.log(name)
+console.log(name2)
+
+// Value not changed as in stack copy is provided 
+
+let userOne ={
+    userEmail:"userone@google.com",
+    userNumber:100
+}
+
+let userTwo =userOne
+userTwo.userEmail="usertwo@google.com"
+
+console.log(userOne.userEmail)
+console.log(userTwo.userEmail)
