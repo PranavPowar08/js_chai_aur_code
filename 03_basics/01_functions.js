@@ -39,3 +39,34 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage(""))
 // console.log(loginUserMessage("hitesh"))
+
+
+function calculateCartPrice (...num1){     //Rest and Spread oprator ...  now it is rest 
+    return num1
+}
+
+console.log(calculateCartPrice(2))
+console.log(calculateCartPrice(200 ,300, 400))
+
+// how to pass Objects in Function
+const user={
+    name:"Raamu",
+    age:25
+}
+
+function handelObject(anyobject){
+    console.log(`Username ${anyobject.name} and age is ${anyobject.age}`)
+}
+
+handelObject(user)
+handelObject({
+    name:"Pranav",
+    age:23
+})
+
+const arr =[200,300,400,500]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(`Second Value in array ${returnSecondValue(arr)}`)
