@@ -124,3 +124,14 @@ loop(); // ❌ Call stack overflow
 ---
 
 Let me know if you want a **real-time visualization tool** or interactive demo links to understand this better!
+
+
+
+| Execution Context Type     | Description                                 |
+| -------------------------- | ------------------------------------------- |
+| Global Execution Context   | Created first, only one per program         |
+| Function Execution Context | Created for each function call              |
+| Eval Execution Context     | Created by `eval()` (rare, not recommended) |
+
+
+ What is Hoisting in JavaScript?
